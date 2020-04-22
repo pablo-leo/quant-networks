@@ -2,10 +2,7 @@ name: quantdare-env
 channels:
   - conda-forge
 dependencies:
-  - numpy
-  - pandas
-  - matplotlib
-  - seaborn
-  - celluloid
-  - tensorflow
   - ffmpeg
+  - pip
+  - pip:
+    - -r file:requirements.txt
